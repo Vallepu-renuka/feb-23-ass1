@@ -1,0 +1,16 @@
+a=[]
+n=int(input('Enter n:'))
+for i in  range(n):
+    d=int(input())
+    a.append(d)
+print('list before reverse:',a)
+a2=a
+a2.reverse()
+print('list after reverse',a2)
+Output:
+Enter n:3
+7
+3
+4
+(' list before reverse:' 7 3 4) 
+('List after reverse :' 4 3 7) 😭
